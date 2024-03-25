@@ -30,6 +30,13 @@ h1 {
   background-color: #FF9;
 }
 
+.card__image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
 .card__tag {
   display: inline-block;
   margin: 1% 5%;
@@ -64,10 +71,18 @@ h1 {
 
 .user__image {
   background-color: #FF9;
+  margin: 0;
   width: 1.5rem;
   height: 1.5rem;
   border: 1px solid;
   border-radius: 5rem;
+}
+
+.user__image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5rem;
+  object-fit: cover;
 }
 
 .user__name {
